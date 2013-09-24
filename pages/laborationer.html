@@ -5,10 +5,10 @@
 		<meta charset="utf-8" />
 	</head>
 	<body>
-		<header>
+		<div>
 			<h1>Christoffer Holmgren:s sida</h1>
-			<nav>
-			<p>Christoffers fantastiska sajt!</p>
+			<div>
+				<p>Christoffers fantastiska sajt!</p>
 				<ul>
 					<li><a href="../index.html">Start</a></li>
 					<li><a href="Laborationer.html">Laborationer</a></li>
@@ -16,9 +16,9 @@
 					<li><a href="Kontakt.html">Kontakt</a></li>
 					<li><a href="presentation.html#presentationImage">Bild</a></li>
 				</ul>
-			</nav>
-		</header>
-		<section>
+			</div>
+		</div>
+		<div>
 			<h2>Webbteknisk introduktion</h2>
 			<ul>
 				<li><a href="#lab1">Laboration 1</a></li>
@@ -26,19 +26,26 @@
 				<li><a href="#lab3">Laboration 3</a></li>
 				<li><a href="#lab4">Laboration 4</a></li>
 			</ul>
-			<h3>
-				<table border="1">
+			<table border="1">
+				<thead>
 					<tr>
 						<th>Laboration</th>
 						<th>Uppgift</th>
 						<th>Status</th>
 						<th>Redovisad</th>
 					</tr>
+				</thead>
+				<tfoot>
 					<tr>
-						<td rowspan="3">1</th>
-						<td>1</th>
-						<td>Färdig</th>
-						<td></th>
+						<td colspan="4">Laborationsresultat gällande Christoffer Holmgren</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<th rowspan="3">1</th>
+						<td>1</td>
+						<td>Färdig</td>
+						<td></td>
 					</tr>
 					<tr>
 						<td>2</td>
@@ -51,10 +58,10 @@
 						<td></td>
 					</tr>
 					<tr>
-						<td rowspan="6">2</th>
-						<td>1</th>
-						<td>Färdig</th>
-						<td></th>
+						<th rowspan="6">2</th>
+						<td>1</td>
+						<td>Färdig</td>
+						<td></tD>
 					</tr>
 					<tr>
 						<td>2</td>
@@ -81,37 +88,34 @@
 						<td>Färdig</td>
 						<td></td>
 					</tr>
-					<tr>
-						<td colspan="4">Laborationsresultat gällande Christoffer Holmgren</td>
-					</tr>
-				</table>
-			</h3>
-			<article>
+				</tbody>
+			</table>
+			<div>
 				<h3 id="lab1">Laboration 1</h3>
 				<p>Uppgifter:</p>
-					<ol>
-						<li>www-katalog</li>
-						<li><a href="presentation.html">Ett första dokument</a></li>
-					</ol>
-			</article>
-			<article>
+				<ol>
+					<li>www-katalog</li>
+					<li><a href="presentation.html">Ett första dokument</a></li>
+				</ol>
+			</div>
+			<div>
 				<h3 id="lab2">Laboration 2</h3>
 				<p>Uppgifter:</p>
 				<ol>
 					<li>Absoluta och relativa sökvägar
 						<dl>
 							<dt>Vilket är den absoluta sökvägen till filen bottom.html?</dt>
-								<dd>http://server.se/html/pages/bottom.html</dd>
+							<dd>http://server.se/html/pages/bottom.html</dd>
 							<dt>Vilket är den relativa sökvägen från filen default.html till filen top.html?</dt>
-								<dd>./pages/top.html</dd>
+							<dd>./pages/top.html</dd>
 							<dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-								<dd>../../index.html</dd>
+							<dd>../../index.html</dd>
 							<dt>Vilket är den absolut sökvägen till filen index.html?</dt>
-								<dd>http://www.server.se/index.html</dd>
+							<dd>http://www.server.se/index.html</dd>
 							<dt>Vilket är den relativa sökvägen rån filen top.html till bottom.html?</dt>
-								<dd>./bottom.html</dd>
+							<dd>./bottom.html</dd>
 							<dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-								<dd>./html/pages/top.html</dd>
+							<dd>./html/pages/top.html</dd>
 						</dl>
 					</li>
 					<li>
@@ -124,17 +128,17 @@
 						Video
 					</li>
 				</ol>
-			</article>
-			<article>
+			</div>
+			<div>
 				<h3 id="lab3">Laboration 3</h3>
 				<p>Uppgifter:</p>
-					<p>Du ska nu testa på att infoga bilder på din sajt.</p>
-					<a href="../index.html#vector">VectorGrafik</a>
-			</article>
-			<article>
+				<p>Du ska nu testa på att infoga bilder på din sajt.</p>
+				<a href="../index.html#vector">VectorGrafik</a>
+			</div>
+			<div>
 				<h3 id="lab4">Laboration 4</h3>
 				<a href="../index.html#video">Video-taggen</a>
-			</article></span.this.is.awesome#stuff>a[href=>
-		</section>
+			</div>
+		</div>
 	</body>
 </html>

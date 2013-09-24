@@ -5,16 +5,67 @@
 		<meta charset="utf-8" />
 	</head>
 	<body>
-		<header>
+		<div id="header">
 			<h1>Christoffer Holmgren:s sida</h1>
-			<nav>
+			<div id="nav">
 				<ul>
 					<li><a href="../index.html">Start</a></li>
 					<li><a href="Laborationer.html">Laborationer</a></li>
 					<li><a href="presentation.html">Presentation</a></li>
 					<li><a href="Kontakt.html">Kontakt</a></li>
 				</ul>
-			</nav>
-		</header>
+			</div>
+		</div>
+		<div id="content">
+			<form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+				<fieldset>
+				<legend>Fråga</legend>
+					<ul>
+						<li>
+						Ärendetyp
+							<select name="location" id="location">
+								<option value="">Select location</option>
+								<option value="nyork">New York</option>
+								<option value="vancouver">Vancouver</option>
+								<option value="atlantis">Atlantis</option>
+								<option value="alpha">Alpha Centauri</option> 
+								<option value="blackpool">Blackpool</option>
+								<option value="bognor">Bognor Regis</option>
+							</select>
+						</li>
+						<li>
+							Rubrik: <textarea name="" id=""></textarea>
+						</li>
+						<li>
+							Fråga:
+							<textarea name="" id=""></textarea>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Information om dig</legend>
+					<ul>
+						<li>
+							<input type="text" name="text" id="" />
+						</li>
+						<li>
+							<input type="text" name="text2" id="" />
+						</li>
+						<li>
+							<textarea name="textarea" id=""></textarea>
+						</li>
+						<li>
+							<label for="telefon">Kontakta mig via telefon</label>
+							<input type="checkbox" name="telefon" />
+						</li>
+						<li>
+							<label for="mail">Kontakta mig via mail</label>
+							<input type="checkbox" name="mail" />
+						</li>
+					</ul>
+				</fieldset>
+				<input type="submit" value="Skicka frågan" />
+			</form>
+		</div>
 	</body>
 </html>
