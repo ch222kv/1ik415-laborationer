@@ -1,0 +1,52 @@
+/* Layout */
+header, body, nav,section, footer
+{
+	border: 1px solid black;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav{
+	width:200px;
+	float:left;
+}
+section{
+	width:750px;
+	margin-left: 210px;
+	float:auto;
+}
+/* Typografi */
+
+/* Color */
+/* 
+	Background body: #67B68C
+	Background header: #468A66
+	Background nav: #2d2d2d
+	Background section: #459E6E
+	Background footer: #f2f2f2
+	Nav text color: #bbb
+	Footer text color: #bbb
+*/
+body{
+	background-color: #67B68C;
+}
+header{
+	background-color: #468A66;
+}
+nav{
+	background-color: #2d2d2d;
+	color:#bbb;
+}
+nav a:visited{
+	color:#bbb;
+}
+nav ul{
+	list-style: none;
+}
+section{
+	background-color: #459E6E;
+}
+footer{
+	background-color: #f2f2f2;
+	color:#bbb;
+}
