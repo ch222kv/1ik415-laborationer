@@ -1,0 +1,61 @@
+/* Layout */
+#body-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+header, body, section, footer
+{
+	border: 0px solid black;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav{
+	border: 0px solid black;
+	width:200px;
+	float:left;
+}
+nav ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	list-style-type: none; 
+	list-style-image:none;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav a{
+	display: block;
+	padding: 5px 20px 5px 20px;
+}
+section{
+	width:750px;
+	margin-left: 210px;
+	margin-right: auto;
+	float:auto;
+}
+#logo{
+	background-image: url("pics/logo.png");
+}
+#svgImage{
+	background-image: url("pics/christoffer.svg");
+}
+.blogPost{
+	border: 0px;
+}
+footer p{
+	text-align: center;
+}
+div h2{
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+}
