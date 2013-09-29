@@ -174,9 +174,6 @@ a.active, a:visited.active{
 .blogPost{
 	border: 0px;
 }
-header{
-	display: block;
-	width:799;
-	height:201;
-	background-image:url("pics/logo.png");
+#logo{
+	background-image: url("pics/logo.png");
 }
