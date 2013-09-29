@@ -1,12 +1,19 @@
 <!doctype html>
 <html lang="sv">
 	<head>
-		<title>Kontakt.html</title>
+		<title>Kontakt</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/resetting.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
 	</head>
-	<body>	<div class="body-container">
-
+	<body>	
+		<div id="body-container">
+			<div id="top">
+				<header>
+					<img id="logo" alt width="799" height="201"/>
+				</header>
+			</div>
 			<nav>
 				<ul>
 					<li><a href="../index.html">Start</a></li>
@@ -15,58 +22,60 @@
 					<li><a href="kontakt.html">Kontakt</a></li>
 				</ul>
 			</nav>
-		<div id="content">
-			<form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-				<fieldset>
-				<legend>Fråga</legend>
-					<ul>
-						<li>
-						Ärendetyp
-							<select name="location" id="location">
-								<option value="">Select location</option>
-								<option value="nyork">New York</option>
-								<option value="vancouver">Vancouver</option>
-								<option value="atlantis">Atlantis</option>
-								<option value="alpha">Alpha Centauri</option> 
-								<option value="blackpool">Blackpool</option>
-								<option value="bognor">Bognor Regis</option>
-							</select>
-						</li>
-						<li>
-							Rubrik: <textarea name="rubrik" id="headerMail"></textarea>
-						</li>
-						<li>
-							Fråga:
-							<textarea name="fråga" id="question"></textarea>
-						</li>
-					</ul>
-				</fieldset>
-				<fieldset>
-					<legend>Information om dig</legend>
-					<ul>
-						<li>
-							<input type="text" name="questionOne" id="one" />
-						</li>
-						<li>
-							<input type="text" name="questionTwo" id="two" />
-						</li>
-						<li>
-							<textarea name="textarea" id="three"></textarea>
-						</li>
-						<li>
-							<label for="telefon">Kontakta mig via telefon</label>
-							<input type="checkbox" name="telefon" id="telefon" />
-						</li>
-						<li>
-							<label for="mail">Kontakta mig via mail</label>
-							<input type="checkbox" name="mail" id="mail" />
-						</li>
-					</ul>
-				</fieldset>
-				<input type="submit" value="Skicka frågan" />
-			</form>
+			<section id="content">
+				<form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+					<fieldset>
+						<legend>Fråga</legend>
+						<ul>
+							<li>
+							Ärendetyp
+								<select name="location" id="location">
+									<option value="">Select location</option>
+									<option value="nyork">New York</option>
+									<option value="vancouver">Vancouver</option>
+									<option value="atlantis">Atlantis</option>
+									<option value="alpha">Alpha Centauri</option> 
+									<option value="blackpool">Blackpool</option>
+									<option value="bognor">Bognor Regis</option>
+								</select>
+							</li>
+							<li>
+								Rubrik: <textarea name="rubrik" id="headerMail"></textarea>
+							</li>
+							<li>
+								Fråga:
+								<textarea name="fråga" id="question"></textarea>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Information om dig</legend>
+						<ul>
+							<li>
+								<input type="text" name="questionOne" id="one" />
+							</li>
+							<li>
+								<input type="text" name="questionTwo" id="two" />
+							</li>
+							<li>
+								<textarea name="textarea" id="three"></textarea>
+							</li>
+							<li>
+								<label for="telefon">Kontakta mig via telefon</label>
+								<input type="checkbox" name="telefon" id="telefon" />
+							</li>
+							<li>
+								<label for="mail">Kontakta mig via mail</label>
+								<input type="checkbox" name="mail" id="mail" />
+							</li>
+						</ul>
+					</fieldset>
+					<input type="submit" value="Skicka frågan" />
+				</form>
+			</section>
+			<footer>
+				<p>Märk väl att detta är footern och att det finns en länk till <a href="presentation.html">presentation.html</a> här.</p>
+			</footer>
 		</div>
-				</div>
-
 	</body>
 </html>
