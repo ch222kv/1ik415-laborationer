@@ -3,66 +3,70 @@
 	<head>
 		<title>index sidan</title>
 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
-
 	<body>
-		<div id="header">
-			<img src="pics/logo.png" alt />
-			<h1>Christoffer Holmgren:s sida</h1>
-			<div id="nav">
+		<div id="body-container">
+			<header>
+				<img src="pics/logo.png" alt />
+				<h1>Christoffer Holmgren:s sida</h1>
+			</header>
+			<nav>
 				<ul>
 					<li><a href="index.html">Start</a></li>
 					<li><a href="pages/laborationer.html">Laborationer</a></li>
 					<li><a href="pages/presentation.html">Presentation</a></li>
 					<li><a href="pages/kontakt.html">Kontakt</a></li>
 				</ul>
-			</div>
-		</div>
-		<h2>Kursblogg</h2>
-		<div id="blog">
-			<div id="video">
-				<h3>Tredje inlägget, video</h3>
-				<p>
-					Här kommer jag presentera en video i formatet OGG från sidan <a href="http://www.bigbuckbunny.org/index.php/trailer-page/" rel="nofollow">Big buck bunny</a>.
-				</p>
-				<video src="videos/trailer_400p.ogg" controls>
-					Your user agent does not support the HTML5 Video element.
-				</video>
-				<p>Skrivet av Christoffer, 12:40, 2013-09-19</p>
-			</div>
-			<div id="vector">
-				<h3>Andra inlägget, vektor grafik</h3>
-				<p>
-					Här kommer en bild i svg format.
-				</p>
-				<img src="pics/christoffer.svg" alt />
-				
-				<p>Skrivet av Christoffer, 12:31, 2013-09-19</p>
-			</div>
-			<div id="firstBlog">
-				<h3>Första inlägget</h3>
-				<p>
-					Här kommer det antagligen komma upp information om de laborationer som jag borde gör. Uppenbarligen får man använda andra taggar än bara de tillhandahållna, vilket förklarar varför jag lade detta i en div.
-				</p>
-				<p>Skrivet av Christoffer, 10:50, 2013-09-19</p>
-			</div>
-			<!--
-					Q: 1.4.1 Vilket är den absoluta sökvägen till filen bottom.html?
-					A: http://server.se/html/pages/bottom.html
-					Q: 1.4.2 Vilket är den relativa sökvägen från filen default.html till filen top.html?
-					A: ./pages/top.html
-					Q: 1.4.3 Vilken är den relativa sökvägen från filen bottom.html till filen index.html?
-					A: ../../index.html
-					Q: 1.4.4 Vilket är den absolut sökvägen till filen index.html?
-					A: http://www.server.se/index.html
-					Q: 1.4.5 Vilket är den relativa sökvägen rån filen top.html till bottom.html?
-					A: ./bottom.html
-					Q: 1.4.6 Vilken är den relativa sökvägen från filen index.html till top.html?
-					A: ./html/pages/top.html
-			-->	
-		</div>
-		<div id="footer">
-			<p>Märk väl att detta är footern och att det finns en länk till <a href="pages/presentation.html">presentation.html</a> här.</p>
+			</nav>
+			<section>
+				<h2>Kursblogg</h2>
+				<div id="blog">
+					<div id="video">
+						<h3>Tredje inlägget, video</h3>
+						<p>
+							Här kommer jag presentera en video i formatet OGG från sidan <a href="http://www.bigbuckbunny.org/index.php/trailer-page/" rel="nofollow">Big buck bunny</a>.
+						</p>
+						<video src="videos/trailer_400p.ogg" controls>
+							Your user agent does not support the HTML5 Video element.
+						</video>
+						<p>Skrivet av Christoffer, 12:40, 2013-09-19</p>
+					</div>
+					<div id="vector">
+						<h3>Andra inlägget, vektor grafik</h3>
+						<p>
+							Här kommer en bild i svg format.
+						</p>
+						<img src="pics/christoffer.svg" alt width="480px" height="640px" />
+						
+						<p>Skrivet av Christoffer, 12:31, 2013-09-19</p>
+					</div>
+					<div id="firstBlog">
+						<h3>Första inlägget</h3>
+						<p>
+							Här kommer det antagligen komma upp information om de laborationer som jag borde gör. Uppenbarligen får man använda andra taggar än bara de tillhandahållna, vilket förklarar varför jag lade detta i en div.
+						</p>
+						<p>Skrivet av Christoffer, 10:50, 2013-09-19</p>
+					</div>
+					<!--
+							Q: 1.4.1 Vilket är den absoluta sökvägen till filen bottom.html?
+							A: http://server.se/html/pages/bottom.html
+							Q: 1.4.2 Vilket är den relativa sökvägen från filen default.html till filen top.html?
+							A: ./pages/top.html
+							Q: 1.4.3 Vilken är den relativa sökvägen från filen bottom.html till filen index.html?
+							A: ../../index.html
+							Q: 1.4.4 Vilket är den absolut sökvägen till filen index.html?
+							A: http://www.server.se/index.html
+							Q: 1.4.5 Vilket är den relativa sökvägen rån filen top.html till bottom.html?
+							A: ./bottom.html
+							Q: 1.4.6 Vilken är den relativa sökvägen från filen index.html till top.html?
+							A: ./html/pages/top.html
+					-->	
+				</div>
+			</section>
+			<footer>
+				<p>Märk väl att detta är footern och att det finns en länk till <a href="pages/presentation.html">presentation.html</a> här.</p>
+			</footer>
 		</div>
 	</body>
 </html>
