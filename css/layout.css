@@ -4,6 +4,12 @@
 	margin-right: auto;
 	width: 960px;
 }
+#content{
+	padding-left: 10px;
+}
+footer, div{
+	border: 1px solid black;
+}
 header, body, section, footer
 {
 	border: 0px solid black;
@@ -34,9 +40,9 @@ nav a{
 	display: block;
 	padding: 5px 20px 5px 20px;
 }
-section{
+div#content{
 	width:750px;
-	margin-left: 210px;
+	margin-left: 200px;
 	margin-right: auto;
 	float:auto;
 }
