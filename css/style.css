@@ -157,3 +157,7 @@ a:hover{
 h2{
 	color:#64151E;
 }
+
+a.active, a:visited.active{
+	color: #FF0000;
+}
