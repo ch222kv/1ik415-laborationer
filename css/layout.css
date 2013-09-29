@@ -1,12 +1,7 @@
 /* Layout */
-#body-container{
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-}
-#content{
-	padding-left: 10px;
-}
+/* More generic formatting
+   that will get applied to
+   all of the tags*/
 footer, div{
 	border: 1px solid black;
 }
@@ -40,21 +35,6 @@ nav a{
 	display: block;
 	padding: 5px 20px 5px 20px;
 }
-div#content{
-	width:750px;
-	margin-left: 200px;
-	margin-right: auto;
-	float:auto;
-}
-#logo{
-	background-image: url("pics/logo.png");
-}
-#svgImage{
-	background-image: url("pics/christoffer.svg");
-}
-.blogPost{
-	border: 0px;
-}
 footer p{
 	text-align: center;
 }
@@ -65,10 +45,39 @@ div h2{
 nav ul{
 	list-style: none;
 }
+/* A little less generic, 
+   matches all the classes
+   */
+.blogPost{
+	border: 0px;
+}
+/* Most specific, will only
+   match the specific ids*/
+div#content{
+	width:750px;
+	margin-left: 200px;
+	margin-right: auto;
+	float:auto;
+}
 #id{
 	width: 770px;
 }
 #presentationImage{
 	width: 720px;
 	margin-left: 10px;
+}
+
+#logo{
+	background-image: url("pics/logo.png");
+}
+#svgImage{
+	background-image: url("pics/christoffer.svg");
+}
+#body-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+#content{
+	padding-left: 10px;
 }
