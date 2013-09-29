@@ -89,7 +89,16 @@ section{
 	float:auto;
 }
 /* Typografi */
-
+@import url(http://fonts.googleapis.com/css?family=Cantora+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic);
+p{
+	line-height: 2;
+	font-family: "Roboto", sans-serif;
+}
+h2,h3{
+	font-family: "Robot", sans-serif;
+	font-weight: 900;
+}
 /* Color */
 /* 
 	Background body: #67B68C
@@ -120,7 +129,11 @@ nav ul{
 	list-style: none;
 }
 nav ul a:hover, nav ul a:focus{
+	text-decoration: none;
 	color:#fff;
+}
+nav a{
+	text-decoration: none;
 }
 nav ul li:hover{
 	background-color: #222222;
@@ -146,18 +159,15 @@ footer p{
 	text-align: center;
 }
 a{
-	text-decoration: none;	
-}
-a:visited{
+	color:#0000FF;
 	text-decoration: none;
 }
 a:hover{
-	text-decoration: none;
+	text-decoration: underline;
 }
 h2{
 	color:#64151E;
 }
-
 a.active, a:visited.active{
 	color: #FF0000;
 }
