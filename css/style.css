@@ -70,6 +70,11 @@ nav ul a:hover, nav ul a:focus{
 	text-decoration: none;
 	color:#fff;
 }
+p.postedBy{
+	font-style: italic;
+	text-align: right;
+	margin-right: 20px;
+}
 /* A bit of color on the body-container */
 #body-container{
 	background-color: #ccc;
