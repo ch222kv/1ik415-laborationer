@@ -47,37 +47,45 @@ table {
 }
 
 /* Layout */
-body{
+#body-container{
+	margin-left: auto;
+	margin-right: auto;
 	width: 960px;
 }
 header, body, section, footer
 {
-	border: 1px solid black;
+	border: 0px solid black;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+header img{
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 nav{
-	border: 1px solid black;
+	border: 0px solid black;
 	width:200px;
 	float:left;
 }
 nav ul{
-	width:200px;
-	margin-top:10px;
-	margin-bottom:10px;
-	padding:0;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom: 10px;
 	list-style-type: none; 
 	list-style-image:none;
 	margin-left: auto;
 	margin-right: auto;
 }
-nav li{
-	padding:0;
+nav a{
+	display: block;
 	padding: 5px 20px 5px 20px;
 }
 section{
 	width:750px;
 	margin-left: 210px;
+	margin-right: auto;
 	float:auto;
 }
 /* Typografi */
@@ -93,36 +101,49 @@ section{
 	Footer text color: #bbb
 */
 body{
-	background-color: #67B68C;
+	background-color: #aaa;
+}
+#body-container{
+	background-color: #ccc;
 }
 header{
-	background-color: #468A66;
+	background-color: #bbb;
 }
-nav{
-	background-color: #2d2d2d;
-	color:#bbb;
+nav, nav a:visited{
+	background-color: #CCCCCC;
+	color:#000000;
 }
-nav  a:visited{
-	color:#bbb;
-}
+/*nav  a:visited{
+	color:#000000;
+}*/
 nav ul{
 	list-style: none;
 }
-nav ul li a{
-	display: block;
-}
-nav ul a:hover{
+nav ul a:hover, nav ul a:focus{
 	color:#fff;
 }
 nav ul li:hover{
-	background-color: #aaa;
+	background-color: #222222;
+}
+nav li{
+	background-color: #aab;
 }
 section{
-	background-color: #459E6E;
+	background-color: #CCCCCC;
+}
+div h2{
+	text-align: center;
+}
+div{
+	border: 1px solid black;
 }
 footer{
-	background-color: #f2f2f2;
-	color:#bbb;
+	border: 1px solid black;
+	background-color: #aaa;
+	color:#000;
+}
+footer p{
+	text-align: center;
 }
 a{
 	text-decoration: none;	
@@ -132,4 +153,7 @@ a:visited{
 }
 a:hover{
 	text-decoration: none;
+}
+h2{
+	color:#64151E;
 }
