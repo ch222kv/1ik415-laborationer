@@ -171,3 +171,12 @@ h2{
 a.active, a:visited.active{
 	color: #FF0000;
 }
+.blogPost{
+	border: 0px;
+}
+header{
+	display: block;
+	width:799;
+	height:201;
+	background-image:url("pics/logo.png");
+}
