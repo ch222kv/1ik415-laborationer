@@ -51,6 +51,13 @@ nav ul{
 .blogPost{
 	border: 0px;
 }
+.textWrapRight{
+	float:right;
+	margin:5px;
+}.textWrapLeft{
+	float:left;
+	margin:5px;
+}
 /* Most specific, will only
    match the specific ids*/
 div#content{
