@@ -74,3 +74,21 @@ nav ul a:hover, nav ul a:focus{
 #body-container{
 	background-color: #ccc;
 }
+table{
+    border:0;
+    border-spacing:0;
+    border-style:solid;
+}
+#footer{
+    background-color:#dedede;
+}
+th{
+    padding:8px;
+}
+td{
+    padding:8px;
+    background-color:#dedede;
+}
+td{
+    background-color:#fdfdfd;
+}
