@@ -78,7 +78,8 @@ div#questions{
 #presentationImage{
 	background-image:url("pics/Christofferholmgren.jpg");
 	background-repeat: no-repeat;
-	width: 799px;
+	background-position:-35px 0;
+	width: 725px;
 	height: 180px;
 	padding:0;
 	border: 0;
