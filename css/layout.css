@@ -34,8 +34,11 @@ nav ul{
 	margin-right: auto;
 }
 nav a{
+	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	height:24px;
 	display: block;
-	padding: 5px 20px 5px 20px;
+	padding: 5px 20px 5px 35px;
 }
 footer p{
 	text-align: center;
@@ -43,7 +46,30 @@ footer p{
 div h2{
 	text-align: center;
 }
-
+#start{
+	background-position: 5px -44px;
+}
+#start:hover{
+	background-position: 5px 4px;
+}
+#lab{
+	background-position: 5px -136px;
+}
+#lab:hover{
+	background-position: 5px -88px;
+}
+#presentation{
+	background-position: 5px -236px;
+}
+#presentation:hover{
+	background-position: 5px -188px;
+}
+#kontakt{
+	background-position: 5px -332px;
+}
+#kontakt:hover{
+	background-position: 5px -284px;
+}
 nav ul{
 	list-style: none;
 }
