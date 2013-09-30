@@ -52,13 +52,15 @@ nav ul{
 	border: 0px;
 	padding-right:15px;
 	padding-left: 5px;
+	overflow:auto;
 }
 .textWrapRight{
 	float:right;
 	margin:5px;
 }.textWrapLeft{
 	float:left;
-	margin:5px;
+	margin:10px;
+	margin-bottom:0;
 }
 /* Most specific, will only
    match the specific ids*/
@@ -70,7 +72,7 @@ div#content{
 }
 div#questions{
 	padding-right:20px;
-	padding-left:10px;
+	padding-left:5px;
 }
 #id{
 	width: 770px;
@@ -110,4 +112,6 @@ div#questions{
 }
 #content{
 	padding-left: 10px;
+}
+#newBlogPost{
 }
