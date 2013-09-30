@@ -45,6 +45,25 @@ div h2{
 nav ul{
 	list-style: none;
 }
+fieldset ul li{
+	list-style: none;
+}
+form{
+	margin:0 auto;
+}
+label, input{
+	display: inline-block;
+}
+label{
+	width:auto;
+	text-align: left;
+}
+label+input{
+	margin:0 0 0 10px;
+}
+input + input{
+	float:right;
+}
 /* A little less generic, 
    matches all the classes
    */
@@ -112,5 +131,12 @@ div#questions{
 #content{
 	padding-left: 10px;
 }
-#newBlogPost{
+input#headerMail{
+	margin-left:25px;
+}
+input#question{
+	margin-left:30px;
+}
+input#questionOne{
+	margin-left:100px;
 }
