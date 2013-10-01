@@ -2,7 +2,7 @@
 /* More generic formatting
    that will get applied to
    all of the tags*/
-footer, div{
+   footer, div{
 	/*
 	border: 1px solid black;
 	*/
@@ -87,29 +87,29 @@ label{
 	text-align: left;
 }
 /* A little less generic, 
-   matches all the classes
-   */
+matches all the classes
+*/
 p.postedBy{
-	font-style: italic;
-	text-align:right;
-	margin-right: 20px;
+font-style: italic;
+text-align:right;
+margin-right: 20px;
 }
 .blogPost{
-	/*border: 0px;*/
-	padding-right:15px;
-	padding-left: 5px;
-	overflow:auto;
+/*border: 0px;*/
+padding-right:15px;
+padding-left: 5px;
+overflow:auto;
 }
 .textWrapRight{
-	float:right;
-	margin:5px;
+float:right;
+margin:5px;
 }.textWrapLeft{
 	float:left;
 	margin:10px;
 	margin-bottom:0;
 }
 /* Most specific, will only
-   match the specific ids*/
+match the specific ids*/
 div#content{
 	width:750px;
 	margin-left: 200px;
@@ -188,4 +188,54 @@ input#questionOne{
 #three{
 	margin-left: 0px;
 	width:238px;
+}
+
+/* Printable.css */
+@media print{
+	#top, nav, footer, video, div.image {
+		display: none;
+	}
+	div{
+		width: 100%; 
+		margin: 0; 
+		float: none;
+	}
+	body{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	#content { 
+		text-align: left;
+		width: 100%; 
+		height:100%;
+		border: 0; 
+		margin: 0 5%;
+		margin-right: 10%;
+		padding: 0;
+	}
+	img{
+		max-width: 100%;
+	}
+	/*@page{
+	margin-left: 0cm;
+	margin-right: 2.5cm;
+	}*/
+	body {
+		font: 12pt Georgia, "Times New Roman", Times, serif;
+		line-height: 1.3;
+	}
+	h1 {
+		font-size: 24pt;
+	}
+	h2 {
+		font-size: 14pt;
+		margin-top: 25px;
+	}
+	blockquote, ul {
+		margin: 0;
+	}
+	a:link:after,a:visited:after{
+		content:"(" attr(href) ")";
+	}
 }

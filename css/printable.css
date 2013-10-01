@@ -1,12 +1,29 @@
-header, nav, footer, video, div.image {
+#top, nav, footer, video, div.image {
 	display: none;
+}
+div{
+	width: 100%; 
+	margin: 0; 
+	float: none;
+}
+body{
+	margin: 0;
+	padding:0;
+}
+#content { 
+	width: 100%; 
+	height:100%;
+	border: 0; 
+	margin: 0 5%;
+	margin-right: 10%;
+	padding: 0;
 }
 img{
 	max-width: 100%;
 }
-@page{
+/*@page{
 	margin: 0.5cm;
-}
+}*/
 body {
 	font: 12pt Georgia, "Times New Roman", Times, serif;
 	line-height: 1.3;
@@ -14,14 +31,9 @@ body {
 h1 {
 	font-size: 24pt;
 }
-
 h2 {
 	font-size: 14pt;
 	margin-top: 25px;
-}
-
-aside h2 {
-	font-size: 18pt;
 }
 blockquote, ul {
 	margin: 0;
