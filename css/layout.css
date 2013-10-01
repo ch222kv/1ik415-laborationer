@@ -77,7 +77,7 @@ fieldset ul li{
 	list-style: none;
 }
 form{
-	margin:0 auto;
+	margin: 0 auto;
 }
 label, input{
 	display: inline-block;
@@ -85,12 +85,6 @@ label, input{
 label{
 	width:auto;
 	text-align: left;
-}
-label+input{
-	margin:0 0 0 10px;
-}
-input + input{
-	float:right;
 }
 /* A little less generic, 
    matches all the classes
@@ -164,12 +158,34 @@ div#questions{
 #content{
 	padding-left: 10px;
 }
+#location{
+	width:155px;
+	margin-left: 22px;
+	padding-top: 1px;
+	padding-bottom:1px;
+}
 input#headerMail{
-	margin-left:25px;
+	margin-left:49px;
 }
 input#question{
-	margin-left:30px;
+	margin-left:51px;
 }
 input#questionOne{
 	margin-left:100px;
+}
+#one{
+	margin-left: 30px;
+}
+#two{
+	margin-left: 27px
+}
+#telefon{
+	margin-left: 15px;
+}
+#mail{
+	margin-left:31px;
+}
+#three{
+	margin-left: 0px;
+	width:238px;
 }
