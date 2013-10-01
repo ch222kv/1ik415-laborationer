@@ -19,11 +19,14 @@ body{
 	padding: 0;
 }
 img{
-	max-width: 100%;
+	max-width: 500px;
 }
 /*@page{
 	margin: 0.5cm;
 }*/
+@page{
+	margin: 2cm;
+}
 body {
 	font: 12pt Georgia, "Times New Roman", Times, serif;
 	line-height: 1.3;
