@@ -313,3 +313,33 @@ input#questionOne{
 		white-space: auto;
 	}
 }
+@media only screen and (min-width: 1800px){
+	nav{
+		padding-top: 20px;
+		padding-bottom:20px;
+		width:100%;
+	}
+	nav ul{
+		width:100%;
+		float:none;
+		margin:0;
+		padding:0;
+		list-style-type: none;
+		text-align: center;
+		display:inline;
+	}
+	nav ul li{
+		float:left;
+		width:20%;
+		display: block;
+		padding:0 2.5% 0 2.5%;
+	}
+	nav ul li a{
+		text-decoration: none;
+	}
+	div#content{
+		max-width: 100%;
+		width:100%;
+		margin:0;
+	}
+}
