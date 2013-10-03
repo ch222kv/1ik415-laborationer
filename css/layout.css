@@ -262,7 +262,7 @@ input#questionOne{
 		content:"(" attr(href) ")";
 	}
 }
-@media only screen and (max-width:680px){
+@media screen and (max-width:680px){
 	nav{
 		float:none;
 		width:100%;
