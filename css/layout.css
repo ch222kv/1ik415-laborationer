@@ -20,7 +20,7 @@ header img{
 }
 nav{
 	/*border: 0px solid black;*/
-	width:200px;
+	width:20%;
 	float:left;
 }
 nav ul{
@@ -113,11 +113,13 @@ match the specific ids*/
 #body-container{
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
+	max-width: 960px;
+	width:100%;
 }
 div#content{
-	width:750px;
-	margin-left: 200px;
+	max-width:750px;
+	width:80%;
+	margin-left: 20%;
 	margin-right: auto;
 }
 div#questions{
@@ -131,8 +133,8 @@ div#questions{
 	background-image:url("pics/Christofferholmgren.jpg");
 	background-repeat: no-repeat;
 	background-position:-35px 0;
-	width: 725px;
-	height: 180px;
+	max-width: 725px;
+	width:100%;
 	padding:0;
 	border: 0;
 	margin:0;
@@ -149,7 +151,7 @@ div#questions{
 	background-image: url("pics/christoffer.svg");
 	background-repeat: no-repeat;
 	height:480px;
-	width:640px;
+	width:100%;
 	margin:0;
 	padding:0;
 	border: 0;
@@ -236,5 +238,28 @@ input#questionOne{
 	}
 	a:link:after,a:visited:after{
 		content:"(" attr(href) ")";
+	}
+}
+@media only screen and (max-width:480px){
+	nav{
+		float:none;
+		width:100%;
+	}
+	nav ul{
+		padding-left:0px;
+	}
+	div#content{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	video, img,div#svgimage{
+		max-width: 100%
+	}
+	#svgImage{
+		/* Remove styling from the div so that the image can show */
+		width:auto;
+		height:auto;
+		background: none;
 	}
 }
