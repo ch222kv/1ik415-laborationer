@@ -151,6 +151,11 @@ div#questions{
 	border: 0;
 	margin:0;
 }
+#presentationImage img{
+	text-indent: 100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
 #logo{
 	background-image: url("pics/logo.png");
 	background-repeat: no-repeat;
@@ -295,10 +300,10 @@ input#questionOne{
 		height:auto;
 		background: none;
 	}
-	#presentationImage{
-		width: auto;
-		height:auto;
-		background: none;
+	#presentationImage img{
+		text-indent: none;
+		overflow:auto;
+		white-space: auto;
 	}
 	#presentationImage{
 		width: auto;
