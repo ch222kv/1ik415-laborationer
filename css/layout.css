@@ -147,6 +147,11 @@ div#questions{
 	margin:auto;
 	padding:0;
 }
+#image img{
+	text-indent: 100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
 #svgImage{
 	background-image: url("pics/christoffer.svg");
 	background-repeat: no-repeat;
@@ -155,6 +160,11 @@ div#questions{
 	margin:0;
 	padding:0;
 	border: 0;
+}
+#svgImage img{
+	text-indent: 100%;
+	white-space:nowrap;
+	overflow:hidden;
 }
 #content{
 	padding-left: 10px;
@@ -261,5 +271,20 @@ input#questionOne{
 		width:auto;
 		height:auto;
 		background: none;
+	}
+	#logo{
+		width: auto;
+		height:auto;
+		background: none;
+	}
+	#svgImage img{
+		text-indent: none;
+		overflow:auto;
+		white-space: auto;
+	}
+	#logo img{
+		text-indent: none;
+		overflow:auto;
+		white-space: auto;
 	}
 }
