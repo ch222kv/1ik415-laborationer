@@ -71,6 +71,7 @@ div h2{
 	background-position: 5px -284px;
 }
 nav ul{
+	padding-left: 15px;
 	list-style: none;
 }
 fieldset ul li{
@@ -134,6 +135,7 @@ div#questions{
 	background-repeat: no-repeat;
 	background-position:-35px 0;
 	max-width: 725px;
+	height:200px;
 	width:100%;
 	padding:0;
 	border: 0;
@@ -279,6 +281,16 @@ input#questionOne{
 		background: none;
 	}
 	#logo{
+		width: auto;
+		height:auto;
+		background: none;
+	}
+	#presentationImage img{
+		width: auto;
+		height:auto;
+		background: none;
+	}
+	#presentationImage{
 		width: auto;
 		height:auto;
 		background: none;
