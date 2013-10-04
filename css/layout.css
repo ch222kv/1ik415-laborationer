@@ -152,9 +152,8 @@ div#questions{
 	margin:0;
 }
 #presentationImage img{
-	text-indent: 100%;
-	white-space:nowrap;
-	overflow:hidden;
+	position: absolute;
+	left:-9999px;
 }
 #logo{
 	background-image: url("pics/logo.png");
@@ -165,9 +164,8 @@ div#questions{
 	padding:0;
 }
 #image img{
-	text-indent: 100%;
-	white-space:nowrap;
-	overflow:hidden;
+	position: absolute;
+	left:-9999px;
 }
 #svgImage{
 	background-image: url("pics/christoffer.svg");
@@ -179,9 +177,8 @@ div#questions{
 	border: 0;
 }
 #svgImage img{
-	text-indent: 100%;
-	white-space:nowrap;
-	overflow:hidden;
+	position: absolute;
+	left:-9999px;
 }
 #content{/*
 	padding-left: 10px;*/
@@ -352,5 +349,10 @@ input#questionOne{
 	}
 	body{
 		background-color: #dddddd;
+	}
+	#presentationImage{
+		margin-top: 80px;
+		margin-left: auto;
+		margin-right:auto;
 	}
 }
