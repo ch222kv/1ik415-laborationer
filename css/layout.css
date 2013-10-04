@@ -7,6 +7,9 @@
 	border: 1px solid black;
 	*/
 }
+div{
+	border:1px solid black;
+}
 header, body, section, footer
 {
 	/*border: 0px solid black;*/
@@ -130,7 +133,7 @@ match the specific ids*/
 div#content{
 	max-width:750px;
 	width:80%;
-	margin-left: 20%;
+	margin-left: 21%;
 	margin-right: auto;
 }
 div#questions{
@@ -140,7 +143,7 @@ div#questions{
 #id{
 	width: 770px;
 }
-#presentationImage{
+/*#presentationImage{
 	background-image:url("pics/Christofferholmgren.jpg");
 	background-repeat: no-repeat;
 	background-position:-35px 0;
@@ -150,10 +153,18 @@ div#questions{
 	padding:0;
 	border: 0;
 	margin:0;
+}*/
+#presentationImage{
+	padding-left: 10px;
+	height: auto;
+	width: 100%;
+	max-width: 95%;
+	margin-right: auto;
+	margin-left: auto;
 }
 #presentationImage img{
-	position: absolute;
-	left:-9999px;
+	/*position: absolute;
+	left:-9999px;*/
 }
 #logo{
 	background-image: url("pics/logo.png");
@@ -179,9 +190,6 @@ div#questions{
 #svgImage img{
 	position: absolute;
 	left:-9999px;
-}
-#content{/*
-	padding-left: 10px;*/
 }
 #location{
 	width:155px;
@@ -298,14 +306,17 @@ input#questionOne{
 		background: none;
 	}
 	#presentationImage img{
-		text-indent: none;
+		/*text-indent: none;
 		overflow:auto;
-		white-space: auto;
+		white-space: auto;*/
+		padding:0;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#presentationImage{
-		width: auto;
-		height:auto;
-		background: none;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#svgImage img{
 		text-indent: none;
