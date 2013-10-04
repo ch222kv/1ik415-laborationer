@@ -272,7 +272,7 @@ input#questionOne{
 		content:"(" attr(href) ")";
 	}
 }
-@media screen and (max-width:680px){
+/*@media screen and (max-width:680px){
 	nav{
 		float:none;
 		width:100%;
@@ -295,7 +295,7 @@ input#questionOne{
 		max-width: 100%
 	}
 	#svgImage{
-		/* Remove styling from the div so that the image can show */
+		Remove styling from the div so that the image can show 
 		width:auto;
 		height:auto;
 		background: none;
@@ -306,9 +306,9 @@ input#questionOne{
 		background: none;
 	}
 	#presentationImage img{
-		/*text-indent: none;
+		text-indent: none;
 		overflow:auto;
-		white-space: auto;*/
+		white-space: auto;
 		padding:0;
 		margin-left: auto;
 		margin-right: auto;
@@ -328,7 +328,7 @@ input#questionOne{
 		overflow:auto;
 		white-space: auto;
 	}
-}
+}*/
 @media only screen and (min-width: 1800px){
 	nav{
 		padding-top: 20px;
