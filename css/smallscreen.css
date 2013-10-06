@@ -1,0 +1,55 @@
+nav{
+		float:none;
+		width:100%;
+	}
+	nav ul{
+		padding-left:0px;
+	}
+	#table{
+		margin-left:auto;
+		margin-right: auto;
+		display: block;
+		max-width: 100%;
+	}
+	div#content{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	video, img,div#svgimage{
+		max-width: 100%
+	}
+	#svgImage{
+		/* Remove styling from the div so that the image can show */
+		width:auto;
+		height:auto;
+		background: none;
+	}
+	#logo{
+		width: auto;
+		height:auto;
+		background: none;
+	}
+	#presentationImage img{
+		/*text-indent: none;
+		overflow:auto;
+		white-space: auto;*/
+		padding:0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#presentationImage{
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#svgImage img{
+		text-indent: none;
+		overflow:auto;
+		white-space: auto;
+	}
+	#logo img{
+		text-indent: none;
+		overflow:auto;
+		white-space: auto;
+	}
