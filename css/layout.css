@@ -7,9 +7,6 @@
 	border: 1px solid black;
 	*/
 }
-div{
-	border:1px solid black;
-}
 header, body, section, footer
 {
 	/*border: 0px solid black;*/
@@ -94,6 +91,17 @@ label, input{
 label{
 	width:auto;
 	text-align: left;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: left;
 }
 /* A little less generic, 
 matches all the classes
@@ -191,7 +199,7 @@ div#questions{
 	position: absolute;
 	left:-9999px;
 }
-#location{
+/*#location{
 	width:155px;
 	margin-left: 22px;
 	padding-top: 1px;
@@ -221,7 +229,7 @@ input#questionOne{
 #three{
 	margin-left: 0px;
 	width:238px;
-}
+}*/
 
 /* Printable.css */
 @media print{
@@ -272,7 +280,7 @@ input#questionOne{
 		content:"(" attr(href) ")";
 	}
 }
-/*@media screen and (max-width:680px){
+@media screen and (max-width:480px){
 	nav{
 		float:none;
 		width:100%;
@@ -328,7 +336,7 @@ input#questionOne{
 		overflow:auto;
 		white-space: auto;
 	}
-}*/
+}
 @media only screen and (min-width: 1800px){
 	nav{
 		padding-top: 20px;
