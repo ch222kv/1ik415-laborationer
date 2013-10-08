@@ -82,6 +82,10 @@ div h2{
 fieldset ul li{
 	list-style: none;
 }
+fieldset{
+    max-width:100%;
+    width:95%;
+}
 form{
 	margin: 0 auto;
 }
@@ -143,6 +147,7 @@ div#content{
 	width:80%;
 	margin-left: 21%;
 	margin-right: auto;
+	padding-left:10px;
 }
 div#questions{
 	padding-right:20px;
@@ -297,21 +302,23 @@ input#questionOne{
 		padding-left:0px;
 	}
 	#table{
-		margin-left:auto;
-		margin-right: auto;
+		margin-left:1%;
+		margin-right:auto;
 		display: block;
-		max-width: 100%;
+		width:50%;
 	}
 	div#content{
 		width:100%;
 		margin:0;
 		padding:0;
+		/*padding-right:10px;*/
+		padding-left:10px;
 	}
 	video, img,div#svgimage{
 		max-width: 100%
 	}
 	#svgImage{
-		Remove styling from the div so that the image can show 
+		/*Remove styling from the div so that the image can show */
 		width:auto;
 		height:auto;
 		background: none;
@@ -383,7 +390,7 @@ input#questionOne{
 	}
 	#presentationImage{
 		margin-top: 80px;
-		margin-left: auto;
+		margin-left: 6%;
 		margin-right:auto;
 	}
 	#three{
