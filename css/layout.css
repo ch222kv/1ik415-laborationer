@@ -345,9 +345,8 @@ input#questionOne{
 		margin-right: auto;
 	}
 	#svgImage img{
-		text-indent: none;
-		overflow:auto;
-		white-space: auto;
+		position:inherit;
+		left:0;
 	}
 	#logo img{
 		text-indent: none;
