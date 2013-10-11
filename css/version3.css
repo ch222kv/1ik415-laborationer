@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Cantora+One);
+	body{
+		font-family: Cantora One;
+		background-color:#bbb;
+	}
+	main{
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+	img{
+		max-width:150px;
+	}
+	a{
+		outline:0;
+		text-align: center;
+		text-decoration: none;
+		color:#000;
+		max-width:150px;
+		background-color: #eee;
+		margin:5px;
+		padding:10px;
+		float:left;
+		box-shadow:10px 10px 10px rgba(0,0,0,0.8);
+		-webkit-transition:all 0.5s;
+		-webkit-transform:rotate(5deg);
+		-moz-transition: all 0.5s;
+		-moz-transform:rotate(5deg);
+		transition:all 0.5s;
+		transform:rotate(5deg);
+	}
+	a:after{
+		content:attr(title);
+	}
+	a:nth-child(2n){
+		z-index: 5;
+		-webkit-transform:rotate(-9deg);
+		-moz-transform:rotate(-9deg);
+		transform:rotate(-9deg);
+	}
+	a:nth-child(3n){
+		z-index: 7;
+		-webkit-transform:rotate(-3deg);
+		-moz-transform:rotate(-3deg);
+		transform:rotate(-3deg);
+	}
+	a:nth-child(5n){
+		z-index:4;
+		-webkit-transform:rotate(8deg);
+		-moz-transform:rotate(8deg);
+		transform:rotate(8deg);
+	}
+	a:hover, a:focus, a:active{
+		box-shadow: 30px 30px 15px rgba(0,0,0,0.25);
+		z-index: 500;
+		-webkit-transform:rotate(0);
+		-webkit-transform:scale(1.3);
+		-moz-transform:rotate(0);
+		-moz-transform:scale(1.3);
+		transform:rotate(0);
+		transform:scale(1.3);
+	}
